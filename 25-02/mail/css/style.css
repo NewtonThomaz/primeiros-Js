@@ -1,0 +1,35 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100dvh;
+    background: linear-gradient(135deg, #20002c, #cbc4d4);
+    color: white;
+}
+
+.azul {
+    width: 100px;
+    height: 100px;
+    background-color: #0000ff;
+    margin-left: 30px;
+}
+
+input, button {
+    padding: 10px;
+    margin-block: 30px;
+    margin-left: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button:hover {
+    cursor: pointer;
+}
